@@ -1,0 +1,16 @@
+torch==2.4.1+cu121
+torchvision==0.19.1+cu121
+numpy
+opencv-python
+Pillow
+scipy
+tqdm
+timm
+einops
+fvcore
+kornia
+PyWavelets
+pytorch-wavelets
+pandas
+matplotlib
+scikit-learn

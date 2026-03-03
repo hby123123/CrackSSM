@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# data and checkpoints
+data/
+checkpoints/
+*.pth
+*.pt
+best_ckpt/*
+!best_ckpt/.gitkeep
+
+# env and IDE
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# logs and results
+*.log
+*.csv
+eval/predictions_*/
+test/test_results/
+
+# selective_scan build
+models/encoders/selective_scan/build/
